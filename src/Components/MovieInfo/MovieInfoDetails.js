@@ -8,7 +8,7 @@ import {
   Descrip,
   GenderList,
   GenderItem,
-} from "./MovieinfoDetails.styled"
+} from "./MovieInfoDetails.styled"
 
 const MovieInfoDetails = ({ movie }) => {
   const { title, poster_path, vote_average, overview, genres } = movie;
