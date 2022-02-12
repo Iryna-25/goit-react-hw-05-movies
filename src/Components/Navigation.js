@@ -10,11 +10,11 @@ const NavContainer= styled.nav`
   font-size: 18px;
   margin-right: 15px;
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #080808;
+  color: black;
    &:hover,
    &:focus,
     &.active{
-    color:blue;
+    color:green;
   }
 `;
 

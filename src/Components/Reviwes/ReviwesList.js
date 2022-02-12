@@ -4,9 +4,10 @@ import styled from "styled-components";
 
 const Item= styled.li`
  margin-bottom: 20px;
+
 `;
 const ItemSpan= styled.span`
-font-weight: 700;
+font-weight: 400;
   font-size: 19px;
 `;
 const ReviewsList = ({ reviews }) => {

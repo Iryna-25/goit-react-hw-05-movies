@@ -2,7 +2,8 @@ import PropTypes from 'prop-types';
 import styled from "styled-components";
 
 const Title= styled.h1`
-font-weight: 500;
+font-weight: 400;
+color: green;
   margin-bottom: 20px;
 `;
 

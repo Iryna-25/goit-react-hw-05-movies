@@ -16,7 +16,7 @@ export const Title = styled.h2`
 
 export const Score  = styled.p`
  margin-bottom: 20px;
- color: blue;
+ color: black;
 `;
 
 
@@ -26,14 +26,14 @@ export const LesTitle = styled.h3`
 
 export const Descrip = styled.p`
   margin-bottom: 40px;
-  color: blue;
+  color: black;
 `;
 
 export const GenderList = styled.ul`
    display: flex;
 `;
 export const GenderItem = styled.li`
- color: blue;
+ color: black;
  &:not(:last-child) {
   margin-right: 10px;
   }

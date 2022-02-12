@@ -13,6 +13,10 @@ const Item = styled.li`
 `;
 const LinkTo = styled(Link)`
   font-size: 18px;
+  color: black;
+  &:visited {
+    color: lightgreen;
+  }
 `;
 
 const MovieList = ({ movies }) => {
